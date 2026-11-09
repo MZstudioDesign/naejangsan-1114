@@ -56,6 +56,9 @@
     .sight p{margin:2px 0 10px;font-size:15.5px}
     ul{margin:0;padding:10px 0 0 18px;font-size:15.5px}
     li{margin:4px 0}
+    details.fold{margin-top:28px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    details.fold summary{cursor:pointer;min-height:44px;display:flex;align-items:center;font-size:17px;font-weight:800;padding:8px 0}
+    details.fold table{margin-top:4px}
     footer{margin:44px 0 44px;padding-top:12px;border-top:1px solid var(--ink);font-size:12px;color:var(--muted)}
     svg text{font-family:inherit}
     @media (max-width:360px){h1{font-size:31px}.row{grid-template-columns:80px 1fr}}
@@ -78,7 +81,18 @@
 
 <section>
   <h2>오는 길</h2>
-  <p class="note" style="margin-top:0">차로 오는 게 기본이에요. 대중교통은 시간이 오래 걸려서 산행엔 못 맞추고 점심에 합류해요.</p>
+  <p class="note" style="margin-top:0">다 같이 차 2대로 와요. 차로 못 오는 분만 맨 아래 「대중교통으로 오는 분」을 눌러 보세요.</p>
+  <h3>차로 오는 분 (2대)</h3>
+  <div class="row"><b>06:55</b><span>휴건축 출발<small>평소 41분, 53km, 통행료 2,400원. 단풍철 막힘은 빠진 시간이에요</small></span></div>
+  <div class="row"><b>07:40</b><span>내장호주차장(옛 4주차장)에 도착, 다 같이 모여요<small>서래탐방지원센터 바로 옆이에요(약 110m). 돌아올 때 셔틀도 여기서 내려요. 공원 안쪽 주차장으로 들어가지 마세요. 차면 단풍생태공원 주차장(센터에서 약 280m)에 대요. 두 곳 다 무료라는 후기가 있고, 공식 요금표는 못 찾았어요</small></span></div>
+  <div class="row"><b>혼잡 예상</b><span>7시 40분이면 아슬아슬해요<small>공원 안쪽 1~3주차장은 7시 반쯤 찼다는 후기, 8시 넘으면 진입로가 1시간 반 넘게 막혔다는 후기가 1건씩 있어요. 우리는 바깥쪽 내장호주차장이라 덜 붐빌 것으로 보지만, 늦지 않게 와 주세요. 차면 단풍생태공원 주차장으로 가요</small></span></div>
+  <div class="row"><b>차 통제</b><span>공원 안쪽 도로는 일반 차가 못 들어가요<small>11월 15일까지 7~18시(공원 공고). 어기면 과태료 50만원 이하예요</small></span></div>
+  <div class="row"><b>돌아갈 때</b><span>점심 뒤 월령교에서 무료 셔틀 → 내장호주차장<small>한국관에서 월령교까지 걸어서 5분. 셔틀은 토요일 8~17시인데 12~13시엔 뜸하거나 쉬어서 13시 넘어 타요. 안 오면 걸어서 2.6km, 약 37분이에요</small></span></div>
+  <div class="row"><b>강사님</b><span>따로 오셔도 돼요<small>07:40까지 내장호주차장(서래탐방지원센터 옆)으로 오시면 같이 출발해요</small></span></div>
+  <a class="link" href="https://map.naver.com/p/search/%EB%82%B4%EC%9E%A5%EC%82%B0%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90%EC%84%9C%EB%9E%98%ED%83%90%EB%B0%A9%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0">네이버 지도에서 서래탐방지원센터(주차장 바로 옆) 찾기</a>
+
+  <details class="fold">
+    <summary>대중교통으로 오는 분 (눌러서 보기)</summary>
   <table>
     <thead><tr><th style="width:24%"></th><th class="us">차</th><th>대중교통</th></tr></thead>
     <tbody>
@@ -89,21 +103,12 @@
     </tbody>
   </table>
 
-  <h3>차로 오는 분 (2대)</h3>
-  <div class="row"><b>06:55</b><span>휴건축 출발<small>평소 41분, 53km, 통행료 2,400원. 단풍철 막힘은 빠진 시간이에요</small></span></div>
-  <div class="row"><b>07:40</b><span>내장호주차장(옛 4주차장)에 도착, 다 같이 모여요<small>서래탐방지원센터 바로 옆이에요(약 110m). 돌아올 때 셔틀도 여기서 내려요. 공원 안쪽 주차장으로 들어가지 마세요. 차면 단풍생태공원 주차장(센터에서 약 280m)에 대요. 두 곳 다 무료라는 후기가 있고, 공식 요금표는 못 찾았어요</small></span></div>
-  <div class="row"><b>혼잡 예상</b><span>7시 40분이면 아슬아슬해요<small>공원 안쪽 1~3주차장은 7시 반쯤 찼다는 후기, 8시 넘으면 진입로가 1시간 반 넘게 막혔다는 후기가 1건씩 있어요. 우리는 바깥쪽 내장호주차장이라 덜 붐빌 것으로 보지만, 늦지 않게 와 주세요. 차면 단풍생태공원 주차장으로 가요</small></span></div>
-  <div class="row"><b>차 통제</b><span>공원 안쪽 도로는 일반 차가 못 들어가요<small>11월 15일까지 7~18시(공원 공고). 어기면 과태료 50만원 이하예요</small></span></div>
-  <div class="row"><b>돌아갈 때</b><span>점심 뒤 월령교에서 무료 셔틀 → 내장호주차장<small>한국관에서 월령교까지 걸어서 5분. 셔틀은 토요일 8~17시인데 12~13시엔 뜸하거나 쉬어서 13시 넘어 타요. 안 오면 걸어서 2.6km, 약 37분이에요</small></span></div>
-  <div class="row"><b>강사님</b><span>따로 오셔도 돼요<small>07:40까지 내장호주차장(서래탐방지원센터 옆)으로 오시면 같이 출발해요</small></span></div>
-  <a class="link" href="https://map.naver.com/p/search/%EB%82%B4%EC%9E%A5%EC%82%B0%EA%B5%AD%EB%A6%BD%EA%B3%B5%EC%9B%90%EC%84%9C%EB%9E%98%ED%83%90%EB%B0%A9%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0">네이버 지도에서 서래탐방지원센터(주차장 바로 옆) 찾기</a>
-
-  <h3>대중교통으로 오는 분</h3>
   <div class="row"><b>합류</b><span>12:00쯤 입구 상가 한국관<small>일찍 도착하면 11:20쯤 우화정 앞에서 만나요. 산행 출발(7:40)에는 못 맞춰요</small></span></div>
   <div class="row"><b>06:55</b><span>휴건축 앞 출발 → 60번 → 유스퀘어<small>양산호수공원 정류장까지 걸어서 4분, 60번 20분, 1,250원</small></span></div>
   <div class="row"><b>07:40</b><span>유스퀘어에서 정읍행 시외버스<small>08:29 정읍터미널 도착, 우등 7,100원</small></span></div>
   <div class="row"><b>08:35쯤</b><span>터미널 옆 정류장에서 171번 → 내장터미널휴게소<small>28분. 15~60분마다 있어서 오래 기다릴 수 있어요. 내리면 월령교·한국관이 가까워요</small></span></div>
   <div class="row"><b>돌아갈 때</b><span>171번 → 정읍터미널 → 유스퀘어<small>정읍 시외버스 막차는 20:30이에요. 토요일 표는 따로 못 찾아서 전날 터미널(1688-6676)에 확인해 주세요</small></span></div>
+  </details>
 </section>
 
 <section>
